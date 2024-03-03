@@ -1,0 +1,9 @@
+quarkus:
+  http:
+    port: 8082
+  rest-client:
+    vehicle-api:
+      url: http://localhost:8080
+    driver-api:
+      url: http://localhost:8080
+
