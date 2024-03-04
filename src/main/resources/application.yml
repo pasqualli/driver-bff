@@ -1,6 +1,10 @@
 quarkus:
   http:
     port: 8082
+    cors:
+      ~: true
+      origins: http://localhost:5173
+      methods: GET
   rest-client:
     vehicle-api:
       url: http://localhost:8080
